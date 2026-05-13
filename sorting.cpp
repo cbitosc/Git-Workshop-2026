@@ -21,7 +21,7 @@ int main() {
     bubbleSort(arr, n);
 
     cout << "Sorted array: ";
-    for(int i = 0; i < n; i++);   // ❌ MISTAKE: extra semicolon
+    for(int i = 0; i < n; i++)   // ❌ MISTAKE: extra semicolon
         cout << arr[i] << " ";
 
     return 0;
